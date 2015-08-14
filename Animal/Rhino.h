@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Animal.h"
 
-@interface Rhino : NSObject
+@interface Rhino : Animal
 
 @property (nonatomic) float hornLengthInInches;
 
