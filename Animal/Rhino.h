@@ -1,5 +1,5 @@
 //
-//  main.m
+//  Rhino.h
 //  Animal
 //
 //  Created by Drue Thomas on 8/13/15.
@@ -7,13 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Animal.h"
 
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-    
-        
-        
-    
-    }
-    return 0;
-}
+@interface Rhino : NSObject
+
+@property (nonatomic) float hornLengthInInches;
+
+
+
+@end

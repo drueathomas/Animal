@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E343EEAC1B7D5F50003F086D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E343EEAB1B7D5F50003F086D /* main.m */; };
+		E343EEB31B7D5F62003F086D /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = E343EEB21B7D5F62003F086D /* Animal.m */; };
+		E343EEB71B7D64C0003F086D /* Rhino.m in Sources */ = {isa = PBXBuildFile; fileRef = E343EEB61B7D64C0003F086D /* Rhino.m */; };
+		E343EEBA1B7D64D1003F086D /* Fish.m in Sources */ = {isa = PBXBuildFile; fileRef = E343EEB91B7D64D1003F086D /* Fish.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		E343EEA81B7D5F50003F086D /* Animal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Animal; sourceTree = BUILT_PRODUCTS_DIR; };
 		E343EEAB1B7D5F50003F086D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E343EEB21B7D5F62003F086D /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		E343EEB41B7D5F78003F086D /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		E343EEB51B7D64C0003F086D /* Rhino.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rhino.h; sourceTree = "<group>"; };
+		E343EEB61B7D64C0003F086D /* Rhino.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rhino.m; sourceTree = "<group>"; };
+		E343EEB81B7D64D1003F086D /* Fish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fish.h; sourceTree = "<group>"; };
+		E343EEB91B7D64D1003F086D /* Fish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fish.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				E343EEAB1B7D5F50003F086D /* main.m */,
+				E343EEB51B7D64C0003F086D /* Rhino.h */,
+				E343EEB61B7D64C0003F086D /* Rhino.m */,
+				E343EEB81B7D64D1003F086D /* Fish.h */,
+				E343EEB91B7D64D1003F086D /* Fish.m */,
+				E343EEB21B7D5F62003F086D /* Animal.m */,
+				E343EEB41B7D5F78003F086D /* Animal.h */,
 			);
 			path = Animal;
 			sourceTree = "<group>";
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E343EEB71B7D64C0003F086D /* Rhino.m in Sources */,
 				E343EEAC1B7D5F50003F086D /* main.m in Sources */,
+				E343EEB31B7D5F62003F086D /* Animal.m in Sources */,
+				E343EEBA1B7D64D1003F086D /* Fish.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
