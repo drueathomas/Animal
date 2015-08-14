@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Animal.h"
 
-@interface Fish : NSObject
+@interface Fish : Animal
 
 @property (nonatomic) int fishLength;
 @property (nonatomic) NSString *waterType;

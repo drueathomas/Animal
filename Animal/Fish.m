@@ -22,7 +22,8 @@
 
 - (void) callAnimal
 {
-    NSLog(@" \"%@\" you say solemnly, but the fish could only \~glug\~ in return.", [super name]);
+    [super callAnimal];
+    NSLog(@"Unfortunately, you get no response because a fish can only \"glug\" in return.");
 }
 
 @end
