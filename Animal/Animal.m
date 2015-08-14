@@ -25,7 +25,7 @@
 
 - (void) callAnimal
 {
-    NSLog(@"Come %@!", self.name);
+    NSLog(@"Come, %@!", self.name);
 }
 
 

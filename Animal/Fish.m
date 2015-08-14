@@ -1,4 +1,4 @@
-//
+///
 //  Fish.m
 //  Animal
 //
@@ -10,11 +10,11 @@
 
 @implementation Fish
 
-@synthesize fishLength, waterType;
+//@synthesize fishLength, waterType;
 
 - (void) willItLiveInALake
 {
-    if ([waterType  isEqual: @"fresh"])
+    if ([_waterType  isEqual: @"fresh"])
         NSLog(@"IT LIVES!");
     else
         NSLog(@"RIP Fishy");

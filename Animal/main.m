@@ -16,12 +16,11 @@ int main(int argc, const char * argv[]) {
     
         Rhino *rhino1 = [[Rhino alloc]init];
         rhino1.name = @"Horns";
-        rhino1.hornLengthInInches = 45;
+        rhino1.hornLengthInInches = 45.67;
         rhino1.numOfLegs = 4;
         rhino1.numInExsistence = 50;
         
-        [rhino1 endangeredSpecies];
-        [rhino1 callAnimal];
+        
         
         Fish *fish1 = [[Fish alloc]init];
         fish1.name = @"Fishy";
@@ -29,8 +28,18 @@ int main(int argc, const char * argv[]) {
         fish1.numOfLegs = 0;
         fish1.numInExsistence = 100000000;
         
+        
+        NSLog(@"Welcome to Zoo Facts! Meet %@ and %@!", fish1.name, rhino1.name);
+        [rhino1 endangeredSpecies];
+        [rhino1 callAnimal];
+        NSLog(@"%@ is friendlier than he looks. His horn is %.2f inches long and he has %d legs.", rhino1.name, rhino1.hornLengthInInches, rhino1.numOfLegs);
+        
         [fish1 endangeredSpecies];
         [fish1 callAnimal];
+        
+        NSLog(@"Lets see if %@ can live in a lake! 1..2...3 GERONIOMO!", fish1.name);
+        
+        [fish1 willItLiveInALake];
         
         
         
