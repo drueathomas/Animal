@@ -29,7 +29,7 @@ int main(int argc, const char * argv[]) {
         fish1.numInExsistence = 100000000;
         
         
-        NSLog(@"Welcome to Zoo Facts! Meet %@ and %@!", fish1.name, rhino1.name);
+        NSLog(@"Welcome to Zoo Facts! Meet %@ and %@.", fish1.name, rhino1.name);
         [rhino1 endangeredSpecies];
         [rhino1 callAnimal];
         NSLog(@"%@ is friendlier than he looks. His horn is %.2f inches long and he has %d legs.", rhino1.name, rhino1.hornLengthInInches, rhino1.numOfLegs);
@@ -37,7 +37,7 @@ int main(int argc, const char * argv[]) {
         [fish1 endangeredSpecies];
         [fish1 callAnimal];
         
-        NSLog(@"Lets see if %@ can live in a lake! 1..2...3 GERONIOMO!", fish1.name);
+       
         
         [fish1 willItLiveInALake];
         

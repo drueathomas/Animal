@@ -14,6 +14,8 @@
 
 - (void) willItLiveInALake
 {
+     NSLog(@"Lets see if %@ can live in a lake... 1..2...3 GERONIOMO!", self.name);
+    
     if ([_waterType  isEqual: @"fresh"])
         NSLog(@"IT LIVES!");
     else
