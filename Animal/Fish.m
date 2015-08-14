@@ -22,7 +22,7 @@
 
 - (void) callAnimal
 {
-    NSLog(@" \"%@\" you say solemnly but the fish could only glug", [super name]);
+    NSLog(@" \"%@\" you say solemnly, but the fish could only \~glug\~ in return.", [super name]);
 }
 
 @end
